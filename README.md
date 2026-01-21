@@ -20,7 +20,12 @@ $$
 A partir dessa função, são calculadas as derivadas parciais:
 
 As derivadas parciais da função são:
-$\frac{\partial f}{\partial x}$ e $\frac{\partial f}{\partial y}$
+
+$$
+\frac{\partial f}{\partial x}
+\qquad
+\frac{\partial f}{\partial y}
+$$
 
 utilizando diferenciação automática com o **SymPy**.
 
@@ -85,3 +90,4 @@ A instalação pode ser feita com:
 ```bash
 
 pip install -r requirements.txt
+

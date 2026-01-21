@@ -23,7 +23,7 @@ As derivadas parciais da função são:
 
 $$
 \frac{\partial f}{\partial x}
-\qquad
+\quad \text{e} \quad
 \frac{\partial f}{\partial y}
 $$
 
@@ -90,4 +90,5 @@ A instalação pode ser feita com:
 ```bash
 
 pip install -r requirements.txt
+
 

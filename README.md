@@ -1,13 +1,12 @@
 # Curvas de Nível e Campo de Gradientes de uma Função Bidimensional
 
-Este repositório apresenta um exemplo de análise e visualização de uma função escalar de duas variáveis utilizando **Python**, com apoio das bibliotecas **SymPy**, **NumPy** e **Matplotlib**.
+Este repositório apresenta um exemplo de análise e visualização de uma função escalar de duas variáveis utilizando Python, com apoio das bibliotecas SymPy, NumPy e Matplotlib.
 
 O foco do projeto é demonstrar:
-- o uso de **cálculo simbólico** para obtenção automática de derivadas parciais;
+- o uso de cálculo simbólico para obtenção automática de derivadas parciais;
 - a conversão de expressões simbólicas em funções numéricas;
-- a visualização conjunta de **curvas de nível** e do **campo de gradientes** no plano.
+- a visualização conjunta de curvas de nível e do campo de gradientes no plano.
 
----
 
 ## Função analisada
 
@@ -27,9 +26,8 @@ $$
 \frac{\partial f}{\partial y}
 $$
 
-utilizando diferenciação automática com o **SymPy**.
+utilizando diferenciação automática com o SymPy.
 
----
 
 ## Metodologia
 
@@ -47,7 +45,6 @@ O código segue as seguintes etapas:
    - mapa de cores da função;
    - vetores do campo de gradientes.
 
----
 
 ## Visualização
 
@@ -56,7 +53,6 @@ O gráfico final combina:
 - **preenchimento em cores** para representar a variação dos valores de  $f(x,y)$;
 - **vetores normalizados** do gradiente, indicando a direção de maior crescimento da função.
 
----
 
 ## Tecnologias utilizadas
 
@@ -65,17 +61,6 @@ O gráfico final combina:
 - **NumPy** – operações numéricas e geração de malhas
 - **Matplotlib** – visualização gráfica
 
----
-
-## Aplicações
-
-Este exemplo é útil para fins didáticos e acadêmicos, especialmente em:
-- Cálculo multivariável;
-- Cálculo vetorial;
-- Análise de gradientes;
-- Visualização de campos escalares.
-
----
 
 ## Requisitos e Execução
 
@@ -88,7 +73,10 @@ As bibliotecas necessárias para executar o código são:
 A instalação pode ser feita com:
 
 ```bash
-
 pip install -r requirements.txt
+```
 
-
+Em seguida abrir o arquivo:
+```bash
+curvas_de_nivel.ipynb
+```
